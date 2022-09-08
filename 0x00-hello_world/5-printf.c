@@ -1,6 +1,10 @@
-#!/bin/bash
 #include <stdio.h>
+/**
+*main entry point
+*
+*return  always 0
+*/
 int main(void)
-{printf("with proper grammer, but the oucome is a piece of art,");
+printf("with proper grammer, but the outcome is a piece of art,\n");
 return(0);
 }
