@@ -1,10 +1,11 @@
+#include "main.h"
 #include <stdio.h>
-int _isdigit(void)
+int _isdigit(int c)
 {
-char c;
-c = 0;
-printf(%c: %dn, c, _isdigit(c));
-c = a;
-printf(%c: %dn, c, _isdigit(c));
+if (c >= 48 && c <=57)
+{
+return (1);
+}
+return (0);
 }
 
