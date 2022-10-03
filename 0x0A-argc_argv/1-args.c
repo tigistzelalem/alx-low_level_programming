@@ -1,17 +1,18 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
-* main - entry point
-* description: prints the name of the function
-* @argc: amount of argument passed through the program
-* @argv: pointer that contians the arrays of thr argument
-* return: 0
+* main - print the number of args
+* @argc: argument count
+* @argv: argument  vector
+* Return: Always zero
 */
 
-int main(int argc, char *argv[]_attribute_((unused)))
+int main(int argc, char *argv[])
 {
-int i = argc - 1;
-printf("%d\n", i);
+(void) argv;
+printf("%d\n", argc - 1);
 return (0);
+
 }
+
